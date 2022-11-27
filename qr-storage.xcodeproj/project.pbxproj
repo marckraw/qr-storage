@@ -11,6 +11,8 @@
 		7B71AC0A29336BF7002F63ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71AC0929336BF7002F63ED /* ContentView.swift */; };
 		7B71AC0C29336BF8002F63ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B71AC0B29336BF8002F63ED /* Assets.xcassets */; };
 		7B71AC0F29336BF8002F63ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B71AC0E29336BF8002F63ED /* Preview Assets.xcassets */; };
+		7B71AC162933813C002F63ED /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71AC152933813C002F63ED /* OldContentView.swift */; };
+		7B71AC18293381B8002F63ED /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71AC17293381B8002F63ED /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7B71AC0929336BF7002F63ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B71AC0B29336BF8002F63ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B71AC0E29336BF8002F63ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B71AC152933813C002F63ED /* OldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldContentView.swift; sourceTree = "<group>"; };
+		7B71AC17293381B8002F63ED /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				7B71AC0729336BF7002F63ED /* qr_storageApp.swift */,
 				7B71AC0929336BF7002F63ED /* ContentView.swift */,
+				7B71AC17293381B8002F63ED /* Offer.swift */,
 				7B71AC0B29336BF8002F63ED /* Assets.xcassets */,
 				7B71AC0D29336BF8002F63ED /* Preview Content */,
+				7B71AC152933813C002F63ED /* OldContentView.swift */,
 			);
 			path = "qr-storage";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B71AC18293381B8002F63ED /* Offer.swift in Sources */,
 				7B71AC0A29336BF7002F63ED /* ContentView.swift in Sources */,
+				7B71AC162933813C002F63ED /* OldContentView.swift in Sources */,
 				7B71AC0829336BF7002F63ED /* qr_storageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
